@@ -1,0 +1,9 @@
+n = int(input())
+
+cources_list = []
+
+for _ in range(n):
+    course_name = input()
+    cources_list.append(course_name)
+
+print(cources_list)
